@@ -1,0 +1,11 @@
+.lands_img {
+    height: 547px;
+}
+
+.dynamic {
+    transition-duration: 1000ms!important;
+}
+
+.dynamic:hover {
+    transform: scale(50) , rotate(180g)!important;
+}

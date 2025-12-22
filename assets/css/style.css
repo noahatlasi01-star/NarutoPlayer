@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'BKoodakBold';
+    src: url('../fonts/B\ Koodak\ Bold_0.ttf');
+}
+@font-face {
+    font-family: 'NinjaNaruto';
+    src: url('../fonts/ninja-naruto.ttf');
+}
+body {
+    font-family: 'BKoodakBold', sans-serif!important;
+}
+
+.title {
+    font-family: 'NinjaNaruto', sans-serif!important;
+}
+
+.br {
+    height: 20vh;
+}
+
+.bg-D-warning {
+    background-color: #d8a407;
+}
+
+.fs_BIG {
+    font-size: 100px;
+}
+
+
+.In_made_err_bg {
+    background-image: url(../img/in_made.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+/* nav start */
+
+nav {
+    display: flex;
+    overflow-x: auto;   
+    white-space: nowrap; 
+    scrollbar-width: thin; 
+    scrollbar-color: gold transparent;
+}
+nav a {
+    flex: 0 0 auto;
+}
+
+.nav_title:hover {
+    background-color: #d8a407!important;
+    transition-duration: 500ms;
+    color: #212529!important;
+}
+
+/*nav end*/
+
+
+/* header start */
+.slide_items1 {
+    background-image: url(../img/header-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slide_items2 {
+    background-image: url(../img/header-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slide_items3 {
+    background-image: url(../img/header-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: flex;
+    transition: 0.6s;
+}
+
+.slide.active {
+    left: 0;
+}
+
+.slide.prev {
+    left: -100%;
+}
+
+.Width_10 {
+    width: 10%;
+}
+/* end header*/
+
+
+/*start footer*/
+.footer_icon {
+    width: 20px;
+    height: 20px;
+}
+
+/*end footer*/
+
