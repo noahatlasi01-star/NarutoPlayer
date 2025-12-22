@@ -3,9 +3,13 @@
 }
 
 .dynamic {
-    transition-duration: 1000ms!important;
+    transition: transform 1000ms ease-in-out !important;
 }
 
 .dynamic:hover {
-    transform: scale(50) , rotate(180g)!important;
+    transform: scale(1.2) rotate(10deg) !important;
 }
+
+/*LAND OF FIRE START*/
+
+/*LAND OF FIRE END*/
