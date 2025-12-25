@@ -26,6 +26,9 @@ body {
     font-size: 100px;
 }
 
+.fs-big{
+    font-size: 70px;
+}
 
 .In_made_err_bg {
     background-image: url(../img/in_made.jpg);
